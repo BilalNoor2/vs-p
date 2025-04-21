@@ -60,7 +60,7 @@ const Hero = () => {
     >
       <div id="video-frame" className="absolute top-0 left-0 w-full h-full">
         <video
-          className=" top-0 left-0 w-full h-full object-cover object-center     "
+          className="bg-red-500 top-0 left-0 w-full h-full object-cover object-center     "
           src={getVideoSrc(counter)}
           loop
           muted
@@ -76,7 +76,7 @@ const Hero = () => {
         className="absolute  z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0  "
       >
         <video
-          className="size-64 object-cover object-center  rounded-lg   "
+          className="bg-red-500 size-64 object-cover object-center  rounded-lg   "
           src={getVideoSrc(counter + 1)}
         />
       </div>
